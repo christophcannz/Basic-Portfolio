@@ -1,7 +1,7 @@
 body {
-    background-image: url("../images/purty_wood.png");
+    background-color: #222629;
     height: 770px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin:0px;
 }
 
@@ -12,10 +12,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: white;
+    background-color: #222629;
+    border-bottom: #222629;
     border-style: solid;
-    border-width: 1px;
-    border-color: #cccccc;
+    border-width: 1.5px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -27,8 +27,8 @@ body {
     justify-content: space-between;
 }
 .header{
-    background-color: #4aaaa5;
-    color: white;
+    background-color: #86c232;
+    color: #222629;
     float: left;
     width: 250px;
     height: 100px;
@@ -52,12 +52,12 @@ h1 {
     /* border-right: solid thin grey; */
     margin-right: 10px;
     padding-right: 10px;
-    color: #4aaaa5;
+    color: #86c232;
     font-weight: bold;
 }
 
 .right-line {
-    border-right: 1px solid #4aaaa5;
+    border-right: 1px solid #86c232;
 }
 
 a:link {
@@ -65,19 +65,20 @@ a:link {
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #86c232;
+    background-color: #86c232;
 }
 
 a:visited {
-    color: #4aaaa5;
+    color: #86c232;
 }
 
 
 h3 {
     display: block;
     font-size: 25px;
-    color: #4aaaa5;
-    margin-left: 30px;
+    color: #86c232;
+    margin-left: 0px;
     padding-top: 30px;
 }
 
@@ -94,15 +95,8 @@ h3 {
     padding-left: 30px;
 }
 
-.separator {
-    background-color: #4aaaa5;
-    width: 900px;
-    height: 5px;
-    margin: 30px
-}
-
 #display {
-    background-color: white;
+    background-color: #222629;
     width: 960px;
     height: 530px;
     margin-left: auto;
@@ -110,15 +104,28 @@ h3 {
 }
 
 p {
-    float: right;
+    float: left;
     clear: none;
-    color: #4aaaa5;
+    color: #edf5e1;
     padding-right: 60px;
 }
  
 img {
     padding: 5px;
     width: 200px;
+ }
+
+ ul.a {
+     color: #edf5e1;
+ }
+
+ ul.c {
+     color: inherit;
+     text-decoration: none;
+ }
+
+ a:any-link {
+     color: #edf5e1;
  }
  
 .column {
@@ -144,20 +151,25 @@ label {
    justify-content: center;
    width: 960px;
 }
- 
-footer {
-    background-color: #666666;
-    color: white;
+
+footer{
+    bottom: 0;
+    position: fixed;
     width: 100%;
-    height: 75px;
-    text-align: center;
-    position: static;
-    bottom:0;
-    justify-content: space-between;
-    margin-top: 20px;
 }
+
+.footer {
+    background:#86c232;
+    height: 25px;
+    margin: auto;
+    width: 945px;
+    text-align:center;
+    padding:10px;
+    color:#222629;
+}
+
 
 h4 {
     text-align: center;
-    padding-top: 45px;
+    margin: 5px;
 }
