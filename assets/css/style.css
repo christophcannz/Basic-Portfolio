@@ -1,7 +1,7 @@
 body {
-    background-color: #222629;
+    background-color: #edf5e1;
     height: 770px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin:0px;
 }
 
@@ -12,8 +12,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #222629;
-    border-bottom: #222629;
+    background-color: #edf5e1;
+    border-bottom: #edf5e1;
     border-style: solid;
     border-width: 1.5px;
     margin-left: auto;
@@ -27,8 +27,8 @@ body {
     justify-content: space-between;
 }
 .header{
-    background-color: #86c232;
-    color: #222629;
+    background-color: #222629;
+    color: #edf5e1;
     float: left;
     width: 250px;
     height: 100px;
@@ -37,6 +37,7 @@ body {
 }
 h1 {
     margin: 15px;
+    font-size: 18pt;
 }
 
 #nav ul {
@@ -52,12 +53,12 @@ h1 {
     /* border-right: solid thin grey; */
     margin-right: 10px;
     padding-right: 10px;
-    color: #86c232;
+    color: #222629;
     font-weight: bold;
 }
 
 .right-line {
-    border-right: 1px solid #86c232;
+    border-right: 1px solid #222629;
 }
 
 a:link {
@@ -65,19 +66,19 @@ a:link {
 }
 
 a:hover {
-    color: #86c232;
-    background-color: #86c232;
+    color: #222629;
+    background-color: red;
 }
 
 a:visited {
-    color: #86c232;
+    color: #222629;
 }
 
 
 h3 {
     display: block;
     font-size: 25px;
-    color: #86c232;
+    color: #222629;
     margin-left: 0px;
     padding-top: 30px;
 }
@@ -96,7 +97,7 @@ h3 {
 }
 
 #display {
-    background-color: #222629;
+    background-color: #edf5e1;
     width: 960px;
     height: 530px;
     margin-left: auto;
@@ -116,7 +117,7 @@ img {
  }
 
  ul.a {
-     color: #edf5e1;
+     color: #222629;
  }
 
  ul.c {
@@ -125,7 +126,7 @@ img {
  }
 
  a:any-link {
-     color: #edf5e1;
+     color: #222629;
  }
  
 .column {
@@ -159,13 +160,13 @@ footer{
 }
 
 .footer {
-    background:#86c232;
+    background:#222629;
     height: 25px;
     margin: auto;
     width: 945px;
     text-align:center;
     padding:10px;
-    color:#222629;
+    color:#edf5e1;
 }
 
 
